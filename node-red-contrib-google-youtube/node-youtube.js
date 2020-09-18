@@ -49,7 +49,7 @@ const input = (node, data, config) => {
         maxResults: config.maxResults,
         part: "snippet",
         regionCode: config.region,
-        auth: node.account.credentials.key,
+        auth: config.account,
         order: config.order,
         type: "video"
 
